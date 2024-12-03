@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Roupas Femininas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo da Loja">
+      <h1>
+    <h1>Loja de Roupas Femininas</h1>
+    <nav>
+      <ul>
+        <li><a href="#vestidos">Vestidos</a></li>
+        <li><a href="#blusas">Blusas</a></li>
+        <li><a href="#calcas">Calças</a></li>
+        <li><a href="#acessorios">Acessórios</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="vestidos">
+      <h2>Vestidos</h2>
+      <div class="grid">
+        <div class="galeria">
+          <img src="vestidovermelho.jpg" alt="Vestido Vermelho">
+          <img src="vestidovermelho2.jpg" alt="Vestido Vermelho">
+          <img src="vestidovermelho3.jpg" alt="Vestido Vermelho">
+          <h3>Vestido Vermelho Elegante</h3>
+          <p>R$ 99,90</p>
+          <button onclick="adicionarAoCarrinho('Vestido Vermelho Elegante', 99.90)">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="vestidofloral.jpg" alt="Vestido Floral">
+          <img src="vestidofloral2.jpg" alt="Vestido Floral">
+          <img src="vestidofloral3.jpg" alt="Vestido Floral">
+          <h3>Vestido Floral Casual</h3>
+          <p>R$ 79,90</p>
+          <button onclick="adicionarAoCarrinho('Vestido Floral Casual', 79.90)">Comprar</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="blusas">
+      <h2>Blusas</h2>
+      <div class="grid">
+        <div class="produto">
+          <img src="blusabranca.jpg" alt="Blusa Branca">
+          <img src="blusabranca2.jpg" alt="Blusa Branca">
+          <img src="blusabranca3.jpg" alt="Blusa Branca">
+          <h3>Blusa Branca Básica</h3>
+          <p>R$ 39,90</p>
+          <button onclick="adicionarAoCarrinho('Blusa Branca Básica', 39.90)">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="blusalistrada.jpg" alt="Blusa Listrada">
+          <img src="blusalistrada2.jpg" alt="Blusa Listrada">
+          <img src="blusalistrada3.jpg" alt="Blusa Listrada">
+          <h3>Blusa Listrada Estilosa</h3>
+          <p>R$ 49,90</p>
+          <button onclick="adicionarAoCarrinho('Blusa Listrada Estilosa', 49.90)">Comprar</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="calcas">
+      <h2>Calças</h2>
+      <div class="grid">
+        <div class="produto">
+          <img src="calcajeans.jpg" alt="Calça Jeans">
+          <img src="calcajeans2.jpg" alt="Calça Jeans">
+          <img src="calcajeans3.jpg" alt="Calça Jeans">
+          <h3>Calça Jeans Skinny</h3>
+          <p>R$ 89,90</p>
+          <button onclick="adicionarAoCarrinho('Calça Jeans Skinny', 89.90)">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="calcalegging.jpg" alt="Calça Legging">
+          <img src="calcalegging2.jpg" alt="Calça Legging">
+          <img src="calcalegging3.jpg" alt="Calça Legging">
+          <h3>Calça Legging Confortável</h3>
+          <p>R$ 59,90</p>
+          <button onclick="adicionarAoCarrinho('Calça Legging Confortável', 59.90)">Comprar</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="acessorios">
+      <h2>Acessórios</h2>
+      <div class="grid">
+        <div class="produto">
+          <img src="bolsapreta.jpg" alt="Bolsa Preta">
+          <img src="bolsapreta2.jpg" alt="Bolsa Preta">
+          <img src="bolsapreta3.jpg" alt="Bolsa Preta">
+          <h3>Bolsa Preta Elegante</h3>
+          <p>R$ 119,90</p>
+          <button onclick="adicionarAoCarrinho('Bolsa Preta Elegante', 119.90)">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="chapeupalha.jpg" alt="Chapéu de Palha">
+          <img src="chapeupalha2.jpg" alt="Chapéu de Palha">
+          <img src="chapeupalha3.jpg" alt="Chapéu de Palha">
+          <h3>Chapéu de Palha</h3>
+          <p>R$ 29,90</p>
+          <button onclick="adicionarAoCarrinho('Chapéu de Palha', 29.90)">Comprar</button>
+          
+        </div>
+        
+      </div>
+    </section>
+  </main>
+    <button onclick="enviarPedidoWhatsApp()">Finalizar Pedido</button>
+    <p>&copy; 2024 Loja de Roupas Femininas. Todos os direitos reservados.</p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
